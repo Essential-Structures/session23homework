@@ -5,6 +5,7 @@ import java.util.Date;
 
 @Data
 public class SongDTO {
-    private String title,composer;
+    private String title,
+                    composer;
     private Date yearOfRelease;
 }
