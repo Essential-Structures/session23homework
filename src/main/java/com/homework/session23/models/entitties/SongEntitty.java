@@ -1,12 +1,12 @@
 package com.homework.session23.models.entitties;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 @Data
 public class Song {
     @Id
-    @GeneratedValue(strategy = Geerated)
+    @GeneratedValue(strategy = Generated)
     private int ID;
     private String name, composer;
-    private Date yearOfRelease;
+    private LocalDate yearOfRelease;
 }
